@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.kimmy.glasstest.HelpActivity">
+    <item
+        android:id="@+id/backToWelcome"
+        android:title="Go back">
+    </item>
+    <item
+        android:id="@+id/exitFromHelp"
+        android:title="@string/exit">
+    </item>
+
+</menu>

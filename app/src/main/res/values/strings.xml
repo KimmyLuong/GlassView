@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GlassTest</string>
+    <string name="title_activity_main">Hello World Immersion</string>
+    <string name="hello_world">Hello worl!</string>
+    <string name="calico">calico</string>
+    <string name="cheshire">cheshire</string>
+    <string name="show_me_cats">show_me_cats</string>
+    <string name="golden">golden</string>
+    <string name="labrador">labrador</string>
+    <string name="show_me_dogs">show_me_dogs</string>
+    <string name="title_activity_second">SecondActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_sekai">SEKAI</string>
+    <string name="secondActivity">Activate Second Activity</string>
+    <string name="firstActivity">Activate First Activity</string>
+    <string name="title_activity_help">HelpActivity</string>
+    <string name="title_activity_help2">Help2Activity</string>
+    <string name="goToHelp">Help</string>
+    <string name="beginGraphing">Start Graphing</string>
+    <string name="pause">Pause</string>
+    <string name="resume">Resume</string>
+    <string name="nextGraph">Next Graph</string>
+    <string name="previousGraph">Previous Graph</string>
+    <string name="goHome">Return Home</string>
+    <string name="cancelGraph">Never mind</string>
+    <string name="cancelHome">Never mind</string>
+    <string name="cancelHelp">Never mind</string>
+    <string name="exit">Close App</string>
+</resources>

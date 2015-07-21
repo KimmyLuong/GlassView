@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<!-- Use the constants defined in the ContextualMenus.Command enum-->
+    <item
+        android:id="@+id/pause"
+        android:title="@string/pause">
+    </item>
+    <item
+        android:id="@+id/resume"
+        android:title="@string/resume">
+    </item>
+    <item
+        android:id="@+id/nextGraph"
+        android:title="@string/nextGraph">
+    </item>
+    <item
+        android:id="@+id/previousGraph"
+        android:title="@string/previousGraph">
+    </item>
+    <item
+        android:id="@+id/returnHome"
+        android:title="@string/goHome">
+    </item>
+    <item
+        android:id="@+id/exitFromGraph"
+        android:title="@string/exit">
+    </item>
+
+
+</menu>

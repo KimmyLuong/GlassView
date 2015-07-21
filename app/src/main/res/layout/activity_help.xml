@@ -1,0 +1,104 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+
+    tools:context="com.example.kimmy.glasstest.HelpActivity">
+
+    <TextView android:text="Gestures" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gestureTitleText"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Gestures are commands Google Glass recognizes when your fingers touch the black bar on the right side of the Glass."-->
+        <!--android:id="@+id/gestureExplanationText"-->
+        <!--android:layout_below="@+id/gestureTitleText"-->
+        <!--android:layout_alignParentEnd="true"-->
+        <!--android:textSize="20dp" />-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Swipe Forward: "
+        android:id="@+id/swipeForwardText"
+        android:layout_below="@+id/gestureTitleText"
+        android:layout_alignParentStart="true"
+        android:textSize="20dp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go to the next graph."
+        android:id="@+id/swipeForwardExplanationText"
+        android:textSize="20dp"
+        android:layout_alignTop="@+id/swipeForwardText"
+        android:layout_toEndOf="@+id/swipeForwardText" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Swipe Backward: "
+        android:id="@+id/swipeBackwardText"
+        android:layout_below="@+id/swipeForwardExplanationText"
+        android:layout_alignParentStart="true"
+        android:textStyle="bold|italic"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go to the previous graph."
+        android:id="@+id/swipeBackwardExplanationText"
+        android:layout_below="@+id/swipeForwardExplanationText"
+        android:layout_toEndOf="@+id/swipeBackwardText"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Two Finger Tap: "
+        android:id="@+id/twoFingerTapText"
+        android:layout_alignParentStart="true"
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+        android:layout_below="@+id/swipeBackwardExplanationText" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Closes the app."
+        android:id="@+id/twoFingerTapExplanationText"
+        android:layout_toEndOf="@+id/twoFingerTapText"
+        android:textSize="20dp"
+        android:layout_below="@+id/swipeBackwardExplanationText" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Swipe Down: "
+        android:id="@+id/swipeDown"
+        android:layout_alignParentStart="true"
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+        android:layout_below="@+id/twoFingerTapText" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Universal cancel."
+        android:id="@+id/SwipeDownText"
+        android:layout_toEndOf="@+id/swipeDown"
+        android:textSize="20dp"
+        android:layout_below="@+id/twoFingerTapExplanationText" />
+
+
+
+</RelativeLayout>

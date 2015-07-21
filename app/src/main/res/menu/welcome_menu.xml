@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Use the constants defined in the ContextualMenus.Command enum-->
+
+    <item
+        android:id="@+id/beginGraphing"
+        android:title="@string/beginGraphing">
+    </item>
+
+    <item
+        android:id="@+id/goToHelp"
+        android:title="@string/goToHelp">
+    </item>
+
+    <item
+        android:id="@+id/exit"
+        android:title="@string/exit">
+    </item>
+
+
+
+
+
+
+</menu>

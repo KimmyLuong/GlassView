@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.kimmy.glasstest.Help2Activity">
+    <item
+        android:id="@+id/previousPage"
+        android:title="Previous page">
+    </item>
+    <item
+        android:id="@+id/backToWelcome"
+        android:title="Return home">
+    </item>
+</menu>
